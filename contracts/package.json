@@ -1,0 +1,17 @@
+{
+  "name": "e-voting",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:dev": "npx hardhat ignition deploy ./ignition/modules/Evoting.ts --network localhost",
+    "node": "npx hardhat node",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.4.5"
+  }
+}
